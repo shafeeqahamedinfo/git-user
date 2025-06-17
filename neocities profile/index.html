@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neocities Portfolio Website</title>
+    <link rel="icon" href="RECYCLEZONE.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.344.0/lucide.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-container">
+                        <img src="neocities-logo-png_seeklogo-491879.webp" alt="Neocities Logo" class="logo-image">
+                        <div class="logo-icon-fallback">
+                            <i data-lucide="globe"></i>
+                        </div>
+                    </div>
+                    <span class="logo-text">Neocities Portfolio</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <button class="nav-btn active" data-section="home">
+                        <i data-lucide="globe"></i>
+                        <span>Home</span>
+                    </button>
+                    <button class="nav-btn" data-section="about">
+                        <i data-lucide="user"></i>
+                        <span>About</span>
+                    </button>
+                    <button class="nav-btn" data-section="projects">
+                        <i data-lucide="folder"></i>
+                        <span>Projects</span>
+                    </button>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <div class="nav-mobile">
+                <nav class="nav-mobile-content">
+                    <button class="nav-btn-mobile active" data-section="home">
+                        <i data-lucide="globe"></i>
+                        <span>Home</span>
+                    </button>
+                    <button class="nav-btn-mobile" data-section="about">
+                        <i data-lucide="user"></i>
+                        <span>About</span>
+                    </button>
+                    <button class="nav-btn-mobile" data-section="projects">
+                        <i data-lucide="folder"></i>
+                        <span>Projects</span>
+                    </button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i data-lucide="sparkles"></i>
+                        <span>Creative Web Projects</span>
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Neocities<br>
+                        <span class="hero-title-accent">Portfolio</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Discover a collection of creative web projects built with passion, hosted on Neocities. 
+                        From interactive games to useful tools, each project tells a unique story.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <button class="btn-primary" data-section="projects">
+                            <span>Explore Projects</span>
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                        
+                        <button class="btn-secondary" data-section="about">
+                            <i data-lucide="globe"></i>
+                            <span>About Neocities</span>
+                        </button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <div class="stat-number">12+</div>
+                            <div class="stat-label">Projects Created</div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Open Source</div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Creativity</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i data-lucide="users"></i>
+                        <span>About the Platform</span>
+                    </div>
+                    
+                    <h1 class="section-title">What is Neocities?</h1>
+                    
+                    <p class="section-description">
+                        Neocities is a free web hosting service that brings back the creative spirit of the early web. 
+                        It's a platform where developers, artists, and creators can build unique websites without corporate constraints.
+                    </p>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-main">
+                        <div class="glass-card">
+                            <h2 class="card-title">
+                                <i data-lucide="star"></i>
+                                Why Neocities?
+                            </h2>
+                            <p class="card-text">
+                                In an age of social media platforms and template-based websites, Neocities stands as a beacon for 
+                                creative freedom. It's a place where you can truly express yourself through code and design.
+                            </p>
+                            <p class="card-text">
+                                Every project showcased here represents hours of creative coding, problem-solving, and the joy 
+                                of building something from scratch. From simple calculators to complex games, each one tells a story.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-philosophy">
+                        <div class="glass-card">
+                            <h3 class="card-subtitle">Project Philosophy</h3>
+                            <ul class="philosophy-list">
+                                <li>
+                                    <div class="list-dot blue"></div>
+                                    <span>Every project is built from scratch with pure HTML, CSS, and JavaScript</span>
+                                </li>
+                                <li>
+                                    <div class="list-dot indigo"></div>
+                                    <span>Focus on functionality, creativity, and user experience</span>
+                                </li>
+                                <li>
+                                    <div class="list-dot sky"></div>
+                                    <span>Open source mindset - learn, share, and inspire others</span>
+                                </li>
+                                <li>
+                                    <div class="list-dot cyan"></div>
+                                    <span>Continuous learning through hands-on project development</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon globe">
+                            <i data-lucide="globe"></i>
+                        </div>
+                        <h3 class="feature-title">Free Web Hosting</h3>
+                        <p class="feature-description">Neocities provides free static web hosting for creative projects and personal websites.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon heart">
+                            <i data-lucide="heart"></i>
+                        </div>
+                        <h3 class="feature-title">Community Driven</h3>
+                        <p class="feature-description">Built by and for creators who believe in the open web and artistic expression.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon code">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <h3 class="feature-title">No Restrictions</h3>
+                        <p class="feature-description">Full creative control with HTML, CSS, and JavaScript - no templates required.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon zap">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h3 class="feature-title">Fast & Reliable</h3>
+                        <p class="feature-description">Lightning-fast loading times with global CDN and reliable uptime.</p>
+                    </div>
+                </div>
+
+                <div class="quote-section">
+                    <div class="quote-card">
+                        <blockquote class="quote-text">
+                            "The web was designed to be decentralized so that everyone could participate in publishing."
+                        </blockquote>
+                        <p class="quote-author">— Kyle Drake, Founder of Neocities</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i data-lucide="gamepad-2"></i>
+                        <span>Project Showcase</span>
+                    </div>
+                    
+                    <h1 class="section-title">Neocities Projects</h1>
+                    
+                    <p class="section-description">
+                        Explore a diverse collection of web applications, games, and creative tools. Each project represents 
+                        a unique journey in web development and creative problem-solving.
+                    </p>
+                </div>
+
+                <div class="category-filter">
+                    <button class="filter-btn active" data-category="All">All</button>
+                    <button class="filter-btn" data-category="Games">Games</button>
+                    <button class="filter-btn" data-category="Creative Tools">Creative Tools</button>
+                    <button class="filter-btn" data-category="Utilities">Utilities</button>
+                    <button class="filter-btn" data-category="Interactive">Interactive</button>
+                    <button class="filter-btn" data-category="E-commerce">E-commerce</button>
+                    <button class="filter-btn" data-category="Financial Tools">Financial Tools</button>
+                    <button class="filter-btn" data-category="Seasonal">Seasonal</button>
+                </div>
+
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Projects will be dynamically inserted here -->
+                </div>
+
+                <div class="project-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">12</div>
+                        <div class="stat-label">Total Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">Games</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">7</div>
+                        <div class="stat-label">Categories</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Open Source</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="logo-container">
+                            <img src="neocities-logo-png_seeklogo-491879.webp" alt="Neocities Logo" class="logo-image">
+                            <div class="logo-icon-fallback">
+                                <i data-lucide="globe"></i>
+                            </div>
+                        </div>
+                        <span class="logo-text">Neocities Portfolio</span>
+                    </div>
+                    <p class="footer-description">
+                        A showcase of creative web projects built with passion and hosted on the free and open platform, Neocities.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="https://neocities.org" target="_blank" rel="noopener noreferrer" class="footer-link">
+                                <span>Visit Neocities</span>
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://recyclezone.neocities.org" target="_blank" rel="noopener noreferrer" class="footer-link">
+                                <span>Main Site</span>
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-philosophy">
+                    <h3 class="footer-title">Philosophy</h3>
+                    <div class="philosophy-items">
+                        <div class="philosophy-item">
+                            <i data-lucide="code"></i>
+                            <span>Built from scratch</span>
+                        </div>
+                        <div class="philosophy-item">
+                            <i data-lucide="heart"></i>
+                            <span>Made with passion</span>
+                        </div>
+                        <div class="philosophy-item">
+                            <i data-lucide="globe"></i>
+                            <span>Open to the world</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 Neocities Portfolio. Built with HTML, CSS, JS & hosted with love.
+                </p>
+                <div class="footer-powered">
+                    <span>Powered by</span>
+                    <a href="https://neocities.org" target="_blank" rel="noopener noreferrer" class="powered-link">
+                        Neocities
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Background Effects -->
+    <div class="bg-effects">
+        <div class="bg-pattern"></div>
+        <div class="bg-gradient"></div>
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        <div class="floating-element floating-3"></div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
+    
